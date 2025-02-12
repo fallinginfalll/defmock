@@ -1,0 +1,310 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@500;600;700;800&display=swap");
+@font-face {
+  font-family: sprat;
+  src: url(Sprat-Regular.otf);
+  font-weight: 700;
+}
+:root {
+  --color0: white;
+  --color1: #010101;
+  --color2: #D56756;
+  --color3: rgb(197, 197, 197);
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  min-height: 100%;
+  margin: 0 6vw;
+  background-color: var(--color0);
+  background: var(--color0);
+  background: linear-gradient(to bottom, var(--color0) 10%, var(--color3) 100%);
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */ /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */ /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+ supported by Chrome, Edge, Opera and Firefox */
+}
+
+nav {
+  font-family: Helvetica;
+  margin-top: 15px;
+}
+nav .navbar-brand {
+  color: var(--color1);
+  font-weight: 700;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-family: Syne, sans-serif;
+  text-align: center;
+  transition: 0.2s;
+  text-shadow: rgba(17, 17, 17, 0.1725490196) 2px 1px 2px;
+  background: linear-gradient(to right, var(--color2), var(--color2) 50%, var(--color1) 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+  transition: 0.2s;
+}
+nav .navbar-brand:hover {
+  background-position: 0 100%;
+}
+nav .navbar-brand:hover {
+  transition: 0.2s;
+  transform: rotate(-4deg);
+  text-shadow: rgba(17, 17, 17, 0.4941176471) 2px 1px 2px;
+  color: var(--color2);
+}
+nav .nav-link {
+  font-weight: 500;
+  margin-left: 2px;
+  text-transform: uppercase;
+  font-family: Syne, sans-serif;
+  color: var(--color1);
+  padding-bottom: 5px;
+  background: linear-gradient(to right, var(--color2), var(--color2) 50%, var(--color1) 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+}
+nav .nav-link:hover {
+  background-position: 0 100%;
+}
+nav .nav-link:active, nav .nav-link:focus {
+  color: var(--color0);
+}
+nav .nav-link.here {
+  font-weight: bolder;
+}
+
+.row {
+  height: 0%;
+  border: #111111 solid 2px;
+}
+
+.d-flex {
+  flex-wrap: wrap;
+  gap: 90px;
+}
+.d-flex hr {
+  width: 100%;
+  border: none;
+}
+
+.container {
+  margin-bottom: 100px;
+}
+.container div {
+  color: var(--color1);
+}
+.container #contact-heading {
+  text-transform: uppercase;
+  font-family: Syne, sans-serif;
+  font-size: clamp(0.5rem, 4vw, 1rem);
+  margin-top: 150px;
+}
+.container a {
+  text-decoration: none;
+  color: var(--color1);
+  transition: 0.2s;
+  background: linear-gradient(to right, var(--color2), var(--color2) 50%, var(--color1) 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+}
+.container a:hover {
+  transform: scale(101%);
+  transition: 0.2s;
+  color: var(--color2);
+  background-position: 0 100%;
+}
+.container a:hover * {
+  transform: scale(101%);
+  transition: 0.2s;
+  color: var(--color2);
+  background-position: 0 100%;
+}
+.container a:active, .container a:focus {
+  color: var(--color1);
+}
+.container #email {
+  margin-top: 50px;
+}
+.container #email a {
+  font-family: sprat, serif;
+  font-size: clamp(1rem, 8vw, 6rem);
+}
+.container #email hr {
+  width: 90%;
+  margin: 20px auto;
+}
+.container .link {
+  color: var(--color1);
+  transition: 0.2s;
+}
+.container span {
+  margin: 0 2vw;
+  text-transform: uppercase;
+  font-family: Syne, sans-serif;
+  font-size: clamp(0.5rem, 3vw, 0.8rem);
+}
+
+.aboutcon {
+  margin-top: 14%;
+}
+.aboutcon .row {
+  border: none;
+  overflow: visible;
+  text-align: center;
+}
+.aboutcon .row .col-lg {
+  padding: 25px 4vw;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+.aboutcon .row .col-lg h2 {
+  text-align: center;
+}
+.aboutcon .row .col-lg h2 a {
+  text-transform: uppercase;
+  font-family: Syne, sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.aboutcon .row #copyright {
+  margin: 15% 0 20px 0;
+  font-size: 0.8rem;
+}
+
+.page-heading {
+  text-transform: uppercase;
+  font-family: Syne, sans-serif;
+  font-size: clamp(1rem, 4vw, 2rem);
+  margin-top: 90px;
+  text-align: center;
+  color: var(--color1);
+}
+
+.row {
+  border: none;
+}
+
+.adv {
+  margin: 8px 0 50px 0;
+  color: var(--color1);
+}
+.adv .col .card {
+  background-color: var(--color0);
+}
+
+.card-img-top {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 30vh;
+  transition: 0.3s;
+}
+.card-img-top:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.card-text {
+  text-align: justify;
+  font-size: 1.1rem;
+  padding: 15px;
+}
+
+.blog {
+  padding: 0 20%;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.blog-img {
+  border-radius: 18px;
+}
+
+.blog-title {
+  color: var(--color1);
+  background: linear-gradient(to right, var(--color2), var(--color2) 50%, var(--color1) 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+}
+.blog-title:hover {
+  transition: 0.3s;
+  transform: scale(101%);
+  color: var(--color2);
+  background-position: 0 100%;
+}
+
+.blog-1-2 {
+  display: none;
+}
+
+.blog-real {
+  padding: 0 10vw;
+  text-align: justify;
+  font-size: clamp(1rem, 1.4vw, 2rem);
+}
+.blog-real a {
+  color: var(--color2);
+}
+
+#breadcrumb {
+  display: none;
+}
+
+.breadcrumb {
+  padding-left: 12px;
+}
+.breadcrumb li > a {
+  color: var(--color2);
+}
+.breadcrumb li.active {
+  color: var(--color1);
+}
+.breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+  content: ">";
+  color: var(--color1);
+}
+
+@media only screen and (min-width: 992px) {
+  .nav-link {
+    width: -moz-max-content;
+    width: max-content;
+    margin: 0 3vw;
+    text-align: center;
+  }
+  .d32 {
+    visibility: hidden;
+  }
+  #theme-button {
+    transition: 0.2s;
+  }
+  #theme-button:hover {
+    transform: scale(110%);
+    transition: 0.2s;
+  }
+  .blog-real {
+    padding: 0 20vw;
+  }
+}/*# sourceMappingURL=style1.css.map */
